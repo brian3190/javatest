@@ -2,7 +2,6 @@ package net.httptesting.linkvalidator
 
 import java.net.http.*;
 
-
 public class CookieManager{
     CookieManager cm = new CookieManager(null,
                         CookiePolicy.ACCEPT_ALL);
